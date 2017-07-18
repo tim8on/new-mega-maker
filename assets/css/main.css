@@ -88,7 +88,8 @@ a {
 	-o-transition: background-color .4s linear, color .4s linear;
 	-ms-transition: background-color .4s linear, color .4s linear;
 	transition: background-color .4s linear, color .4s linear;
-	color: #AAB6E3;
+	color: red;
+    font-family: 'Inconsolata', sans-serif;
 }
 a:hover,
 a:focus {
@@ -180,11 +181,14 @@ input {
 }
 
 #h h4 {
-	font-weight: 400;
 	text-align: center;
 	font-size: 2.5em;
-    line-height: 2em;
-    font-family: 'Inconsolata', sans-serif;
+    line-height: 1.75em;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    letter-spacing: .10em;
 }
 
 #logo {
@@ -200,11 +204,69 @@ input {
     background-color: black;
 }
 
+/* CTA */
+#f {
+	background: black;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: black;
+}
+
+#f h4 {
+	font-weight: 400;
+	text-align: center;
+	font-size: 24px;
+    line-height: 2em;
+    font-family: 'Inconsolata', sans-serif;
+    color: white;
+}
+
+/* News Section */
+.news {
+	background-position: center;
+	background-image: url('../img/DIY.jpg');
+	background-size: cover;
+}
+
+.news .container {
+	width: 100%
+}
+
+.section-bg-color {
+	background-color: #EAEAEA;
+	height: 100%;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.section-bg-color h3, .section-bg-color p {
+	margin-left: 25px;
+	margin-right: 25px
+}
+
+.news h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    letter-spacing: .15em;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
 /* BLACK SECTION */
 
-#blk h5 {
-	letter-spacing: 1px;
-	text-transform: uppercase;
+#blk h4 {
+	font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    letter-spacing: .15em;
+    font-size: 2em;
+    line-height: 1.75em;
+    padding-left: 7em;
+    padding-right: 7em;
 }
 
 #blk hr {
@@ -223,11 +285,15 @@ input {
     color: black;
 }
 
+#cta {
+    padding-top: 3em;
+}
+
 /* White Section */
 #w {
 	background: white;
 	width: 1265px;
-	padding-top: 8em;
+	padding-top: 6em;
     padding-bottom: 5em;
 }
 
@@ -240,44 +306,50 @@ input {
 	font-size: 16px;
 }
 
-/* PRICES */
-#space {
-    padding-top: 0em;
-    padding-bottom: 5em;
+#w h6 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
-.prices {
-	
-}
-.prices li {
-	list-style-type: none;
-	border-bottom: 1px solid #cccccc;
-	padding-bottom: 10px;
-	padding-top: 10px;
-}
-.prices h3 {
-	font-weight: 400;
-	color: #AAB6E3;
+img {
+    padding-bottom: .5em;
 }
 
-/* FOOTER */
-#f {
-	background: #DFE4F5;
-	width: 100%;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	color: black;
+/* Justin */
+.justin {
+	background-position: left;
+	background-image: url('../img/justin.png');
+    background-repeat: no-repeat;
 }
 
-#f p {
-	color: black;
+.justin .container {
+	width: 100%
 }
 
-#f h4 {
-	font-weight: 400;
-	text-align: center;
-	font-size: 24px;
-    line-height: 2em;
+.justin p {
+    line-height: 1.75em;
+}
+
+.justin .col-sm-offset-6 {
+    margin-left: 35%;
+}
+
+.justin .col-sm-6 {
+    width: 65%;
+}
+
+.justin img {
+    width: 45em;
+}
+
+.justin .section-bg-color {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.justin p{
+    color: black;
 }
 
 /* CREDIT */
