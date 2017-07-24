@@ -316,41 +316,26 @@ img {
     padding-bottom: .5em;
 }
 
-/* Justin */
-.justin {
-	background-position: left;
-	background-image: url('../img/justin.png');
-    background-repeat: no-repeat;
+/* Author */
+.author {
+	background-position: center;
+	background-image: url('../img/justin.jpg');
+	background-size: cover;
 }
 
-.justin .container {
+.author .container {
 	width: 100%
 }
 
-.justin p {
-    line-height: 1.75em;
-}
-
-.justin .col-sm-offset-6 {
-    margin-left: 35%;
-}
-
-.justin .col-sm-6 {
-    width: 65%;
-}
-
-.justin img {
+.author img {
     width: 45em;
 }
 
-.justin .section-bg-color {
-    padding-top: 4em;
-    padding-bottom: 4em;
+.author p{
+    color: black;
+    line-height: 1.75em;
 }
 
-.justin p{
-    color: black;
-}
 
 /* CREDIT */
 #c {
