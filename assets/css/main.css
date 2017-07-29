@@ -123,7 +123,9 @@ img {
 /* FORM CONFIGURATION */
 
 form {
-   padding-left: 15%; 
+    padding-left: 0;
+    width: 50em;
+    margin-left: -5em;
 }
 
 input {
@@ -140,14 +142,15 @@ input {
 }
 
 .subscribe-input {
-	float: left;
-	width: 65%;
 	text-align: left;
-	margin-right: -6em;
+    width: 15em;
+    margin-right: 0;
+    float: none;
 }
 
 .subscribe-submit {
 	right: 0;
+    margin-top: -0.2em;
 }
 
 /* Overall Buttons*/
@@ -385,6 +388,34 @@ img {
         width: 20em;
         margin-left: 3.5em;
         margin-right: 6em;
+    }
+    
+    form {
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    input {
+        margin-bottom: 1.5em;
+    }
+    
+    .section-bg-color {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    
+    #blk h4 {
+        text-align: left;
+        padding-left: 2em;
+        font-size: 1.75em;
+    }
+    
+    #title {
+        width: 22em;
+    }
+    
+    #news img {
+        width: 375px;
     }
 
 }
